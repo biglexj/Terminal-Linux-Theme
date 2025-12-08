@@ -122,24 +122,24 @@ alias lss='ls -lh --color=auto'
 # 🔗 Aliases - Rutas Biglex J (WSL)
 # ===========================
 # Raíz de montaje Windows
-alias bj='cd /mnt/e'
+alias bj='cd /mnt/d'
 
 # Carpetas principales (Drive E:)
-alias bjdes='cd /mnt/e/Descargas'
-alias bjdoc='cd /mnt/e/Documentos'
-alias bjimg='cd /mnt/e/Imágenes'
-alias bjmus='cd /mnt/e/Música'
-alias bjvid='cd /mnt/e/Videos'
+alias bjdes='cd /mnt/d/Descargas'
+alias bjdoc='cd /mnt/d/Documentos'
+alias bjimg='cd /mnt/d/Imágenes'
+alias bjmus='cd /mnt/d/Música'
+alias bjvid='cd /mnt/d/Videos'
 
 # Carpetas de desarrollo
-alias bjpro='cd /mnt/e/Proyectos'
-alias bjpros='cd /mnt/e/Proyectos/biglexj'
-alias bjass='cd /mnt/e/Assets'
+alias bjpro='cd /mnt/d/Proyectos'
+alias bjpros='cd /mnt/d/Proyectos/biglexj'
+alias bjass='cd /mnt/d/Assets'
 
 # Carpetas de contenido
-alias bjdav='cd /mnt/e/Videos/DaVinci\ Resolve'
-alias bjyt='cd /mnt/e/Imágenes/YouTube'
-alias bjmarca='cd /mnt/e/Imágenes/Proyectos/Marca'
+alias bjdav='cd /mnt/d/Videos/DaVinci\ Resolve'
+alias bjyt='cd /mnt/d/Imágenes/YouTube'
+alias bjmarca='cd /mnt/d/Imágenes/Proyectos/Marca'
 
 # ===========================
 # 🛠️ Git Shortcuts
