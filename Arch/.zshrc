@@ -69,10 +69,21 @@ unset LS_COLORS
 export LS_COLORS=""
 
 # Alias
+# Alias
 alias install='sudo pacman -S'
 alias uninstall='sudo pacman -Rns'
 alias installu='sudo pacman -U'
 alias upd='sudo pacman -Syu'
+alias par='paru'
+alias pi='paru -S'
+alias pu='paru -Rns'
+alias parui='paru -S'
+alias paruuninst='paru -Rns'
+alias yi='yay -S'
+alias yu='yay -Rns'
+alias yayi='yay -S'
+alias yayuninst='yay -Rns'
+alias y='yay'
 alias ..='cd ..'
 alias ls='lsd'
 alias ll='lsd -lh'
@@ -161,7 +172,7 @@ function show_system_info_table() {
     
     for i in {1..6}; do
         local color="${colors[$(((i-1) % ${#colors[@]} + 1))]}"
-        printf "${border_color}│${reset}${color}%-18s${reset} | ${color}%-42s${reset} ${border_color}│${reset}\n" "${labels[$i]}" "${values[$i]}"
+        printf "${border_color}│${reset}${color}%-18s${reset} | ${color}%-42s${reset}  ${border_color}│${reset}\n" "${labels[$i]}" "${values[$i]}"
     done
 
     echo -e "${border_color}└─────────────────────────────────────────────────────────────────┘${reset}"
